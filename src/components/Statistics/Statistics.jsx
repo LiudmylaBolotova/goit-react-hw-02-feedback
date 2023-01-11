@@ -9,8 +9,8 @@ export const Statistics = ({
   positivePercentage,
 }) => {
   return (
-    <>
-      <StatisticList>
+    
+      <StatisticList >
         <StatisticItem>Good: {good}</StatisticItem>
         <StatisticItem>Neutral: {neutral}</StatisticItem>
         <StatisticItem>Bad: {bad}</StatisticItem>
@@ -20,7 +20,7 @@ export const Statistics = ({
           {positivePercentage ? positivePercentage + '%' : '0%'}
         </StatisticItem>
       </StatisticList>
-    </>
+    
   );
 };
 

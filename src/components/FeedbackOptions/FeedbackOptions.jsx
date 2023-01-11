@@ -3,11 +3,11 @@ import { FeedbackButton } from './FeedbackOptions.styled';
 
 export const FeedbackOptions = ({ options, onClickButton }) => {
   return options.map(option => (
-    <li key={option}>
+    <div key={option}>
       <FeedbackButton type="button" onClick={onClickButton}>
         {option}
       </FeedbackButton>
-    </li>
+    </div>
   ));
 };
 

@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const StatisticList = styled.ul`
-  margin: ${p => p.theme.space[3]}px;
   list-style: none;
 `;
 
