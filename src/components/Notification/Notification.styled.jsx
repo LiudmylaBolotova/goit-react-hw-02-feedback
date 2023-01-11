@@ -8,4 +8,3 @@ export const Message = styled.p`
   font-weight: ${p => p.theme.fontWeights.bold};
   color: ${p => p.theme.colors.notificationColor};
 `;
-  
