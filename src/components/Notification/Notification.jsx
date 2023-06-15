@@ -3,9 +3,9 @@ import { Message } from './Notification.styled';
 
 export const Notification = ({ message }) => {
   return (
-    <div>
+    <>
       <Message>{message}</Message>
-    </div>
+    </>
   );
 };
 
